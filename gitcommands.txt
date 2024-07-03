@@ -6,7 +6,7 @@ mbejoy@INLEN8520062212 MINGW64 ~
 $ cd desktop
 
 mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
-$ git config --global user.name "mayabejoy"
+$ git config --global user.name "magesh22"
 
 mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
 $ git config --global user.email mayabejoy@gmail.com
