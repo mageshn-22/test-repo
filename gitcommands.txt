@@ -1,0 +1,186 @@
+mbejoy@INLEN8520062212 MINGW64 ~
+$ pwd
+/c/Users/mbejoy
+
+mbejoy@INLEN8520062212 MINGW64 ~
+$ cd desktop
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git config --global user.name "mayabejoy"
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git config --global user.email mayabejoy@gmail.com
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop (master)
+$ mkdir SCBRepo
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop (master)
+$ cd SCBRepo
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git init
+Initialized empty Git repository in C:/Users/mbejoy/Desktop/SCBRepo/.git/
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ touch alpha.txt
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ notepad alpha.txt
+
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        alpha.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git add .
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   alpha.txt
+
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git commit -m "This is my first commit"
+[master (root-commit) 94c0442] This is my first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 alpha.txt
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git remote add origin https://github.com/CG-FS-ABL/SCBRepo.git
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git remote -v
+origin  https://github.com/CG-FS-ABL/SCBRepo.git (fetch)
+origin  https://github.com/CG-FS-ABL/SCBRepo.git (push)
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git push -u origin master
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/CG-FS-ABL/SCBRepo.git/'
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/mbejoy/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Maya Bejoy
+user.password=mayabejoy@gmail.com
+user.email=mayabejoy@gmail.com
+user.emal=mayabejoy@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/CG-FS-ABL/SCBRepo.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git config --global user.name "Maya Bejoy"
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git config --global user.email mayabejoy@gmail.com
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ mkdir SCBRepo
+mkdir: cannot create directory ‘SCBRepo’: No such file or directory
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo
+$ cd ..
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop (master)
+$ mkdir SCBRepo
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop (master)
+$ cd SCBRepo
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git init
+Initialized empty Git repository in C:/Users/mbejoy/Desktop/SCBRepo/.git/
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ touch a.txt
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ notepad a.txt
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git add .
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git commit -m "My first SCB Commit"
+[master (root-commit) 5363d02] My first SCB Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 a.txt
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git remote add origin https://github.com/CG-FS-ABL/SCBRepo.git
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git remote -v
+origin  https://github.com/CG-FS-ABL/SCBRepo.git (fetch)
+origin  https://github.com/CG-FS-ABL/SCBRepo.git (push)
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git push -u origin master
+
+
+
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git push -u origin master
+
+
+
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git remote add origin https://github.com/mayabejoy/MyNewRepo.git
+error: remote origin already exists.
+
+mbejoy@INLEN8520062212 MINGW64 ~/desktop/SCBRepo (master)
+$ git push -u origin master
+fatal: helper error (-1): User cancelled dialog.
+error: unable to read askpass response from 'C:/Users/mbejoy/AppData/Local/Programs/Git/mingw64/bin/git-askpass.exe'
+Username for 'http
